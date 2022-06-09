@@ -1,0 +1,112 @@
+section {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+ .register {
+    margin-top: 50px !important;
+  }
+  
+  section h3 {
+    text-align: center;
+  }
+  form {
+    margin: auto;
+    padding: 5px 10px;
+  }
+  
+  .input_container {
+    margin: 20px 0;
+  }
+  .input_container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+  }
+  
+  .button_container {
+      text-align: center;
+      margin: 20px 0;
+  }
+  .button_container .btn {
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(64, 223, 239);
+  }
+
+  .togglediv {
+      top: 0;
+      display: flex;
+      justify-content: center;
+      /* margin-left: 15vw; */
+      align-items: center;
+  }
+  .togglechange {
+      color: aqua;
+      cursor: pointer;
+  }
+  .error {
+    color: red;
+  }
+
+  /* Profile */
+
+  table {
+    border: 1px solid black;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+  }
+  tbody tr, td,th {
+    border: 1px solid black;
+    padding: 2px 5px;
+  }
+  button {
+    border: none;
+    background-color: blue;
+    margin: 0 14px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: white;
+    cursor: pointer;
+  }
+ .del {
+    background-color: red;
+    border: 1px solid red;
+  }
+
+  td input {
+    width: auto;
+  }
+  form {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .editinput {
+    width: 7vw;
+    margin-right: 10px;
+  }
+  .email {
+    width: 15vw;
+  }
+
+  .disable {
+    text-decoration: line-through;
+    background-color: rgb(97, 97, 206);
+    border: none;
+  }
+
+  .disabledel {
+    text-decoration: line-through;
+    background-color: rgb(215, 84, 84);
+    border: none;
+  }
+  
